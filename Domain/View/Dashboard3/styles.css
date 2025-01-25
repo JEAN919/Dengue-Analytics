@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar-header {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    padding: 10px 0;
+}
+
+.sidebar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sidebar-menu li a ion-icon {
+    margin-right: 10px;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #575757;
+}
+
+.dropdown-content {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li a {
+    padding-left: 40px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+header button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.welcome-image, .info-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-section {
+    margin-top: 50px;
+}
+
+.info-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.info-image {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.info-text {
+    font-size: 18px;
+    width: 60%;
+}
