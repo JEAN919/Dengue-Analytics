@@ -11,8 +11,8 @@ body {
 }
 
 .sidebar {
-    width: 250px;
-    background-color: #111;
+    width: 300px;
+    background-color: #744343;
     color: #fff;
     padding: 20px;
     box-sizing: border-box;
@@ -142,4 +142,31 @@ header button {
 .info-text {
     font-size: 18px;
     width: 60%;
+}
+@media (max-width: 768px) {
+  
+    .sidebar {
+        width: 100%;
+        position: fixed;
+        height: auto;
+        
+    }
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+    .info-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-image {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .info-text {
+        width: 100%;
+    }
+    .cabeza{
+        margin-bottom:20rem;
+     }    
 }
